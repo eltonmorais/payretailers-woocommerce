@@ -1,0 +1,2 @@
+#!/bin/bash
+msgfmt -o languages/payretailers-woocommerce-ja.mo languages/payretailers-woocommerce-ja.po

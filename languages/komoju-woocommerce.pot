@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: payretailers-woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-06 05:07+0000\n"
+"PO-Revision-Date: 2017-07-06 +ZONE\n"
+"Last-Translator: \n"
+"Language-Team: Degica <support@degica.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: class-wc-gateway-payretailers.php:36 includes/settings-payretailers.php:21
+msgid "PayRetailers"
+msgstr ""
+
+#: class-wc-gateway-payretailers.php:37
+msgid ""
+"Allows payments by PayRetailers, dedicated to Japanese online and offline payment "
+"gateways."
+msgstr ""
+
+#: class-wc-gateway-payretailers.php:102
+msgid "Gateway Disabled"
+msgstr ""
+
+#: class-wc-gateway-payretailers.php:102
+msgid "PayRetailers does not support your store currency."
+msgstr ""
+
+#: class-wc-gateway-payretailers.php:154
+msgid "Method of payment:"
+msgstr ""
+
+#: class-wc-gateway-payretailers.php:156 includes/settings-payretailers.php:37
+msgid "Credit Card"
+msgstr ""
+
+#: class-wc-gateway-payretailers.php:158 includes/settings-payretailers.php:49
+msgid "Konbini"
+msgstr ""
+
+#: class-wc-gateway-payretailers.php:160
+msgid "WebMoney"
+msgstr ""
+
+#: class-wc-gateway-payretailers.php:162 includes/settings-payretailers.php:57
+msgid "Bank Transfer"
+msgstr ""
+
+#: class-wc-gateway-payretailers.php:164 includes/settings-payretailers.php:63
+msgid "Pay Easy"
+msgstr ""
+
+#: class-wc-gateway-payretailers.php:191
+msgid "Please select a payment method (how you want to pay)"
+msgstr ""
+
+#: includes/class-wc-gateway-payretailers-ipn-handler.php:94
+#, php-format
+msgid "Validation error: PayRetailers currencies do not match (code %s)."
+msgstr ""
+
+#: includes/class-wc-gateway-payretailers-ipn-handler.php:108
+#, php-format
+msgid "Validation error: PayRetailers amounts do not match (total %s)."
+msgstr ""
+
+#: includes/class-wc-gateway-payretailers-ipn-handler.php:128
+msgid "IPN payment captured"
+msgstr ""
+
+#: includes/class-wc-gateway-payretailers-ipn-handler.php:136
+#, php-format
+msgid "Payment pending: %s"
+msgstr ""
+
+#: includes/class-wc-gateway-payretailers-ipn-handler.php:153
+#: includes/class-wc-gateway-payretailers-ipn-handler.php:177
+#: includes/class-wc-gateway-payretailers-ipn-handler.php:190
+#, php-format
+msgid "Payment %s via IPN."
+msgstr ""
+
+#: includes/settings-payretailers.php:12
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/settings-payretailers.php:14
+msgid "Enable PayRetailers"
+msgstr ""
+
+#: includes/settings-payretailers.php:18
+msgid "Title"
+msgstr ""
+
+#: includes/settings-payretailers.php:20
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/settings-payretailers.php:25
+msgid "Description"
+msgstr ""
+
+#: includes/settings-payretailers.php:27
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/settings-payretailers.php:28
+msgid ""
+"Make your payment through PayRetailers: offline and online Japanese payments like "
+"Konbini, credit cards, WebMoney, ..."
+msgstr ""
+
+#: includes/settings-payretailers.php:32
+msgid "Supported methods set in PayRetailers"
+msgstr ""
+
+#: includes/settings-payretailers.php:39
+msgid "Allow credit card"
+msgstr ""
+
+#: includes/settings-payretailers.php:43
+msgid "Web Money"
+msgstr ""
+
+#: includes/settings-payretailers.php:45
+msgid "Allow Web Money"
+msgstr ""
+
+#: includes/settings-payretailers.php:51
+msgid "Allow delayed payment in convenience store"
+msgstr ""
+
+#: includes/settings-payretailers.php:52
+msgid ""
+"Lawson, Family Mart, Sunkus, Circle-K, Ministop, Daily Yamazaki, 7-Eleven"
+msgstr ""
+
+#: includes/settings-payretailers.php:59
+msgid "Allow bank transfer"
+msgstr ""
+
+#: includes/settings-payretailers.php:65
+msgid "Allow delayed payment through Pay Easy"
+msgstr ""
+
+#: includes/settings-payretailers.php:74
+msgid "PayRetailers merchant ID"
+msgstr ""
+
+#: includes/settings-payretailers.php:76
+msgid "Please enter your PayRetailers account ID."
+msgstr ""
+
+#: includes/settings-payretailers.php:81
+msgid "Secret Key from PayRetailers"
+msgstr ""
+
+#: includes/settings-payretailers.php:83
+msgid "Please enter your PayRetailers secret key."
+msgstr ""
+
+#: includes/settings-payretailers.php:88
+msgid "Callback Url"
+msgstr ""
+
+#: includes/settings-payretailers.php:90
+#, php-format
+msgid ""
+"Specify a special callback url (or leave this field empty if you don't know "
+"what it is). Default url is %s"
+msgstr ""
+
+#: includes/settings-payretailers.php:94
+msgid "PayRetailers Sandbox"
+msgstr ""
+
+#: includes/settings-payretailers.php:96
+msgid "Enable PayRetailers sandbox"
+msgstr ""
+
+#: includes/settings-payretailers.php:98
+#, php-format
+msgid ""
+"When checked, your PayRetailers sandbox will be used in order to test payments. "
+"Sign up for a developer account <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/settings-payretailers.php:101
+msgid "Invoice Prefix"
+msgstr ""
+
+#: includes/settings-payretailers.php:103
+msgid ""
+"Please enter a prefix for your invoice numbers. If you use your PayRetailers "
+"account for multiple stores ensure this prefix is unique."
+msgstr ""
+
+#: includes/settings-payretailers.php:108
+msgid "Debug Log"
+msgstr ""
+
+#: includes/settings-payretailers.php:110
+msgid "Enable logging"
+msgstr ""
+
+#: includes/settings-payretailers.php:112
+#, php-format
+msgid "Log PayRetailers events inside <code>%s</code>"
+msgstr ""

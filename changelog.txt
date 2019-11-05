@@ -1,0 +1,4 @@
+*** PayRetailers gateway Changelog ***
+
+2019.11.04
+ * Initial release
